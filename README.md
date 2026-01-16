@@ -16,8 +16,6 @@ Open-source Betaflight flight controller with integrated break-off ELRS receiver
 ### Sensors
 - **IMU**: LSM6DSV16XTR - 6-axis accelerometer + gyroscope (SPI interface)
   - Dedicated filtered 3.3V power rail for noise isolation
-- **Barometer**: BMP388 - High-precision barometric pressure sensor (I2C)
-- **Magnetometer**: LIS3MDLTR - 3-axis compass (I2C)
 
 ### Blackbox Data Logging
 - **W25Q128JVPIQTR** - 128Mbit (16MB) SPI flash for flight data recording
@@ -44,7 +42,6 @@ Open-source Betaflight flight controller with integrated break-off ELRS receiver
 - Buzzer output
 - Boot/DFU button
 - On-board RGB status LEDs (WS2812B-2020)
-- OSD support
 
 ### Power
 - Wide input voltage range via battery input
