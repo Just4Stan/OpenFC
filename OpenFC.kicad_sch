@@ -157,6 +157,16 @@
 	)
 	(wire
 		(pts
+			(xy 87.63 76.2) (xy 104.14 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7466febf-ce8f-4d9f-93d7-1dd7a1c452e9")
+	)
+	(wire
+		(pts
 			(xy 166.37 97.79) (xy 180.34 97.79)
 		)
 		(stroke
@@ -204,6 +214,16 @@
 			(type default)
 		)
 		(uuid "85855a38-2da2-43e3-a6c7-1d72a38c8bf6")
+	)
+	(wire
+		(pts
+			(xy 87.63 78.74) (xy 104.14 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87e0608f-2169-4246-9c2c-f973d448cad7")
 	)
 	(bus
 		(pts
@@ -672,8 +692,8 @@
 		)
 	)
 	(sheet
-		(at 64.77 80.01)
-		(size 22.86 7.62)
+		(at 64.77 72.39)
+		(size 22.86 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -688,7 +708,7 @@
 		)
 		(uuid "99f37a8a-e0ce-4199-a70f-608089c0dd22")
 		(property "Sheetname" "ELRS"
-			(at 64.77 79.2984 0)
+			(at 64.77 71.6784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -718,6 +738,26 @@
 		(pin "ELRX_TX" input
 			(at 87.63 85.09 0)
 			(uuid "8212b6c0-04aa-4cda-a8dd-1241c737686a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ESP8285_EN" input
+			(at 87.63 78.74 0)
+			(uuid "904ca2d0-0fb7-417e-8215-6d0ca837acd9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ESP8285_RST" input
+			(at 87.63 76.2 0)
+			(uuid "502429d6-a754-4578-9ef4-e5a2473e9fc6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1119,6 +1159,26 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "ESP8285_EN" input
+			(at 104.14 78.74 180)
+			(uuid "1766f4a0-33a5-40ac-8dc9-75ea7e8032f0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ESP8285_RST" input
+			(at 104.14 76.2 180)
+			(uuid "19ee402b-6b00-4548-a695-24ba2eac0fe7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
