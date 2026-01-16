@@ -1,6 +1,9 @@
 # OpenFC
 
 Open-source Betaflight flight controller with integrated break-off ELRS receiver, based on the RP2350A microcontroller.
+<img width="782" height="736" alt="Screenshot 2026-01-16 at 17 39 09" src="https://github.com/user-attachments/assets/6343ebe7-27f3-48dd-a6ed-db9a72e57b0d" />
+<img width="880" height="830" alt="Screenshot 2026-01-16 at 17 39 18" src="https://github.com/user-attachments/assets/efcc17ff-df41-4898-b22a-6660c66cd391" />
+
 
 ## Features
 
@@ -16,8 +19,6 @@ Open-source Betaflight flight controller with integrated break-off ELRS receiver
 ### Sensors
 - **IMU**: LSM6DSV16XTR - 6-axis accelerometer + gyroscope (SPI interface)
   - Dedicated filtered 3.3V power rail for noise isolation
-- **Barometer**: BMP388 - High-precision barometric pressure sensor (I2C)
-- **Magnetometer**: LIS3MDLTR - 3-axis compass (I2C)
 
 ### Blackbox Data Logging
 - **W25Q128JVPIQTR** - 128Mbit (16MB) SPI flash for flight data recording
@@ -44,7 +45,6 @@ Open-source Betaflight flight controller with integrated break-off ELRS receiver
 - Buzzer output
 - Boot/DFU button
 - On-board RGB status LEDs (WS2812B-2020)
-- OSD support
 
 ### Power
 - Wide input voltage range via battery input
