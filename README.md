@@ -1,8 +1,8 @@
 # OpenFC
 
 Open-source Betaflight flight controller with integrated break-off ELRS receiver, based on the RP2350A microcontroller.
-<img width="782" height="736" alt="Screenshot 2026-01-16 at 17 39 09" src="https://github.com/user-attachments/assets/6343ebe7-27f3-48dd-a6ed-db9a72e57b0d" />
-<img width="880" height="830" alt="Screenshot 2026-01-16 at 17 39 18" src="https://github.com/user-attachments/assets/efcc17ff-df41-4898-b22a-6660c66cd391" />
+<img width="794" height="732" alt="Screenshot 2026-01-17 at 17 14 00" src="https://github.com/user-attachments/assets/fdad636a-8366-4ee4-9b2c-ab641878bfcd" />
+<img width="789" height="705" alt="Screenshot 2026-01-17 at 17 14 16" src="https://github.com/user-attachments/assets/7bee1a32-32ab-4f7e-87cd-9b0c2be045ce" />
 
 
 ## Features
