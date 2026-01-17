@@ -755,9 +755,9 @@
 				(justify right)
 			)
 		)
-		(pin "ESP8285_RST" input
+		(pin "ESP_BOOT0" input
 			(at 87.63 76.2 0)
-			(uuid "502429d6-a754-4578-9ef4-e5a2473e9fc6")
+			(uuid "d1260e9b-f1f4-495a-ac53-cfae09b25713")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1171,9 +1171,9 @@
 				(justify left)
 			)
 		)
-		(pin "ESP8285_RST" input
+		(pin "ESP_BOOT0" input
 			(at 104.14 76.2 180)
-			(uuid "19ee402b-6b00-4548-a695-24ba2eac0fe7")
+			(uuid "b786e064-7d57-4953-b5f4-43d14bd0f83f")
 			(effects
 				(font
 					(size 1.27 1.27)
