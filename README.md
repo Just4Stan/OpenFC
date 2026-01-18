@@ -1,6 +1,6 @@
 # OpenFC
 
-Open-source Betaflight flight controller with integrated break-off ELRS receiver, based on the RP2350A microcontroller.
+Open-source Betaflight flight controller with integrated break-off ELRS receiver, based on the RP2354A microcontroller.
 <img width="794" height="732" alt="Screenshot 2026-01-17 at 17 14 00" src="https://github.com/user-attachments/assets/fdad636a-8366-4ee4-9b2c-ab641878bfcd" />
 <img width="789" height="705" alt="Screenshot 2026-01-17 at 17 14 16" src="https://github.com/user-attachments/assets/7bee1a32-32ab-4f7e-87cd-9b0c2be045ce" />
 
@@ -8,7 +8,7 @@ Open-source Betaflight flight controller with integrated break-off ELRS receiver
 ## Features
 
 ### Microcontroller
-- **RP2350A** - Raspberry Pi dual-core ARM Cortex-M33 @ 150MHz
+- **RP2354A** - Raspberry Pi dual-core ARM Cortex-M33 @ 150MHz (with integrated flash)
 - USB-C connectivity for configuration and firmware updates
 
 ### Integrated ELRS Receiver (Break-off)
@@ -54,7 +54,7 @@ Open-source Betaflight flight controller with integrated break-off ELRS receiver
 ## Schematic Hierarchy
 
 - `OpenFC.kicad_sch` - Top-level schematic
-- `rp2350a.kicad_sch` - RP2350A microcontroller and supporting circuitry
+- `rp2350a.kicad_sch` - RP2354A microcontroller and supporting circuitry
 - `elrs.kicad_sch` - ELRS 2.4GHz receiver module (break-off section)
 - `Radioschematic.kicad_sch` - Radio/RF detailed schematic
 - `power.kicad_sch` - Power supply and regulation

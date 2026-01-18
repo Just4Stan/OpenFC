@@ -69,7 +69,8 @@
 	(pad "1" smd roundrect
 		(at 0 0)
 		(size 1.905 1.27)
-		(layers "F.Cu" "F.Mask" "F.Paste")
+		(property pad_prop_testpoint)
+		(layers "F.Cu" "F.Mask")
 		(roundrect_rratio 0.15)
 		(uuid "76128be0-f09a-4689-8ec2-07dedd8ae612")
 	)

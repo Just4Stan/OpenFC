@@ -5,14 +5,4 @@
 	(uuid "87c28d46-5715-4f4d-9c5a-9c69fe574a65")
 	(paper "A4")
 	(lib_symbols)
-	(text "to be added\n"
-		(exclude_from_sim no)
-		(at 139.954 98.552 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "8a64c1cc-6f4b-48e2-a37d-fbb0da96235c")
-	)
 )

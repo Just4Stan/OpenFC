@@ -1934,12 +1934,6 @@
 		)
 	)
 	(junction
-		(at 77.47 57.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "08036d22-28c7-4554-a263-5b7095c281a3")
-	)
-	(junction
 		(at 152.4 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2261,16 +2255,6 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 41.91) (xy 68.58 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "276c7eb5-abb6-43a5-956d-5e8667d72918")
-	)
-	(wire
-		(pts
 			(xy 260.35 128.27) (xy 260.35 129.54)
 		)
 		(stroke
@@ -2551,16 +2535,6 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 33.02) (xy 77.47 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6995be02-5fbb-439e-8d80-6dbbb539f656")
-	)
-	(wire
-		(pts
 			(xy 77.47 57.15) (xy 77.47 49.53)
 		)
 		(stroke
@@ -2628,16 +2602,6 @@
 			(type default)
 		)
 		(uuid "7720e785-87c7-4144-882e-a6e1468208dd")
-	)
-	(wire
-		(pts
-			(xy 68.58 57.15) (xy 77.47 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7e7a9967-e074-4a24-a52e-969de2fc1bca")
 	)
 	(wire
 		(pts
@@ -2808,16 +2772,6 @@
 			(type default)
 		)
 		(uuid "ae46a7c6-a5b2-4707-b3a6-7464e88c65fe")
-	)
-	(wire
-		(pts
-			(xy 68.58 49.53) (xy 68.58 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b1dd18c2-4c01-43ae-9922-3b1050756dd4")
 	)
 	(wire
 		(pts
@@ -3362,85 +3316,6 @@
 			(project ""
 				(path "/fb88b6f9-ee39-4640-a9d4-04a17ceeac64/f8522f96-c979-41d2-ae00-e5ad899a3161"
 					(reference "#PWR0175")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 68.58 45.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1e8c2ebd-4204-422d-a151-e2515f9e7757")
-		(property "Reference" "C16"
-			(at 72.39 44.4499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4.7uF 50v"
-			(at 72.39 46.9899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 69.5452 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 68.58 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 68.58 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C98192"
-			(at 68.58 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7f856b86-80a0-4122-ae85-5ef59b05808a")
-		)
-		(pin "2"
-			(uuid "870b21b4-9e5a-46f3-8ee0-5d93d676502c")
-		)
-		(instances
-			(project "OpenFC"
-				(path "/fb88b6f9-ee39-4640-a9d4-04a17ceeac64/f8522f96-c979-41d2-ae00-e5ad899a3161"
-					(reference "C16")
 					(unit 1)
 				)
 			)

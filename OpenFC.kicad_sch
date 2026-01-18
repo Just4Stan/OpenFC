@@ -12,8 +12,12 @@
 		(uuid "01f4cb62-c01b-4baf-9651-d77d237cead8")
 	)
 	(no_connect
-		(at 219.71 118.11)
-		(uuid "39cfc79c-ec7f-40b2-9a09-fac27d8d6fd1")
+		(at 166.37 100.33)
+		(uuid "8731ea0d-7a63-47e7-9c27-2d817656262e")
+	)
+	(no_connect
+		(at 166.37 97.79)
+		(uuid "e9de8bbf-e0bb-4100-9ce8-d9cb0a788cfa")
 	)
 	(wire
 		(pts
@@ -64,16 +68,6 @@
 			(type default)
 		)
 		(uuid "32ff1597-24a1-4c4d-9d73-7501949e7cbf")
-	)
-	(wire
-		(pts
-			(xy 166.37 105.41) (xy 180.34 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "334b9eb1-8abf-4341-a831-ba2ab2a729ca")
 	)
 	(bus
 		(pts
@@ -165,16 +159,6 @@
 		)
 		(uuid "7466febf-ce8f-4d9f-93d7-1dd7a1c452e9")
 	)
-	(wire
-		(pts
-			(xy 166.37 97.79) (xy 180.34 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "775323d4-c20a-41a7-8991-a5cc32ad26b7")
-	)
 	(bus
 		(pts
 			(xy 87.63 118.11) (xy 95.25 118.11)
@@ -184,26 +168,6 @@
 			(type default)
 		)
 		(uuid "7e83b87e-2db6-4bf1-a023-68df5d5642b0")
-	)
-	(wire
-		(pts
-			(xy 166.37 100.33) (xy 180.34 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "805e7119-3a07-49e1-8044-2779d84de98e")
-	)
-	(wire
-		(pts
-			(xy 166.37 113.03) (xy 180.34 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "806beccb-fcb0-486b-8cd5-f0d22597812e")
 	)
 	(wire
 		(pts
@@ -364,6 +328,16 @@
 			(type default)
 		)
 		(uuid "e8e3a785-8159-49d0-9e4a-76e5a53ec22e")
+	)
+	(wire
+		(pts
+			(xy 166.37 133.35) (xy 180.34 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed2c318d-efd3-44ea-aa91-e28375cfc425")
 	)
 	(wire
 		(pts
@@ -911,16 +885,6 @@
 				(justify left top)
 			)
 		)
-		(pin "ADC_EXT1" input
-			(at 166.37 105.41 0)
-			(uuid "18f2048f-6af9-461a-876d-f9ec8b8b1dfa")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "ADC_CURR" input
 			(at 166.37 85.09 0)
 			(uuid "37e4dcf1-bf11-4a73-a9b3-e9335a05986b")
@@ -1081,16 +1045,6 @@
 				(justify right)
 			)
 		)
-		(pin "UART3_TX" input
-			(at 166.37 113.03 0)
-			(uuid "356b16ec-72bd-4323-9847-caa3553f9103")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "MOTOR1" input
 			(at 166.37 74.93 0)
 			(uuid "6e2feddf-917c-4089-b934-c5cf9892505e")
@@ -1179,6 +1133,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "SBUS" input
+			(at 166.37 133.35 0)
+			(uuid "c32862a0-8612-4d03-9334-de63fa16184e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -1364,28 +1328,8 @@
 			)
 		)
 		(pin "SBUS" input
-			(at 219.71 118.11 0)
+			(at 180.34 133.35 180)
 			(uuid "a8eaff68-ee8b-43a1-bf6a-097465d1d424")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "USB_D+" input
-			(at 180.34 97.79 180)
-			(uuid "2d72e936-c284-4b93-a65b-93f18345dc69")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "USB_D-" input
-			(at 180.34 100.33 180)
-			(uuid "c6ebb9ca-b5f5-4e81-b9b7-cc64d6412ec3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1413,29 +1357,9 @@
 				(justify left)
 			)
 		)
-		(pin "ADC1" input
-			(at 180.34 105.41 180)
-			(uuid "9c3c8f3e-789b-4425-a610-a6b0f8c95c40")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "ADC2" input
 			(at 180.34 107.95 180)
 			(uuid "df7938e4-69ff-471d-89f8-226ae7f16a4d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "UART3_TX" input
-			(at 180.34 113.03 180)
-			(uuid "2ea786b6-542a-4940-b6f2-828e3c5dc41f")
 			(effects
 				(font
 					(size 1.27 1.27)
