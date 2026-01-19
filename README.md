@@ -1,8 +1,8 @@
 # OpenFC
 
 Open-source Betaflight flight controller with integrated break-off ELRS receiver, based on the RP2354A microcontroller.
-<img width="794" height="732" alt="Screenshot 2026-01-17 at 17 14 00" src="https://github.com/user-attachments/assets/fdad636a-8366-4ee4-9b2c-ab641878bfcd" />
-<img width="789" height="705" alt="Screenshot 2026-01-17 at 17 14 16" src="https://github.com/user-attachments/assets/7bee1a32-32ab-4f7e-87cd-9b0c2be045ce" />
+<img width="1525" height="519" alt="Screenshot 2026-01-18 at 21 32 46" src="https://github.com/user-attachments/assets/d9c790f6-fd75-4f72-9c20-73d8c4dd3b92" />
+
 
 
 ## Features
@@ -13,8 +13,8 @@ Open-source Betaflight flight controller with integrated break-off ELRS receiver
 
 ### Integrated ELRS Receiver (Break-off)
 - On-board 2.4GHz ExpressLRS receiver module
-- Break-off design allows for external antenna placement or removal if using external receiver
-- UART connection to flight controller
+- Break-off design allows for different placement if needed
+- Ceramic Antenna integrated
 
 ### Sensors
 - **IMU**: LSM6DSV16XTR - 6-axis accelerometer + gyroscope (SPI interface)
@@ -38,17 +38,16 @@ Open-source Betaflight flight controller with integrated break-off ELRS receiver
 ### Analog Inputs
 - Current sensor input (ADC)
 - RSSI input (ADC)
-- 2x External ADC channels
 
 ### Additional Features
 - Addressable LED strip output (WS2812/NeoPixel)
 - Buzzer output
-- Boot/DFU button
-- On-board RGB status LEDs (WS2812B-2020)
+- 16 LED's built in on corners
+- ELRS ESP flashable by the RP2354A (BOOT/EN pins connected)
 
 ### Power
-- Wide input voltage range via battery input
-- 5V and 3.3V regulated outputs
+- 2S-6S batteries
+- 10V and 5V regulated outputs
 - Dedicated 3.3V_GYRO rail with additional filtering
 
 ## Schematic Hierarchy
@@ -60,7 +59,7 @@ Open-source Betaflight flight controller with integrated break-off ELRS receiver
 - `power.kicad_sch` - Power supply and regulation
 - `imu.kicad_sch` - LSM6DSV16XTR IMU
 - `baro.kicad_sch` - BMP388 barometer
-- `compass.kicad_sch` - LIS3MDLTR magnetometer
+- `compass.kicad_sch` - LIS3MDLTR magnetometer (not populated, but there's space for it)
 - `blackbox.kicad_sch` - W25Q128 flash memory
 - `leds.kicad_sch` - Status LEDs
 - `connectors.kicad_sch` - External connectors
