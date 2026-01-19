@@ -49,6 +49,16 @@
 		)
 		(uuid "12e8a7f5-b890-42bd-9c85-64fbc1682993")
 	)
+	(wire
+		(pts
+			(xy 162.56 54.61) (xy 193.04 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e623da3-f96a-4ba8-851a-81d96e46a0bf")
+	)
 	(bus
 		(pts
 			(xy 87.63 100.33) (xy 95.25 100.33)
@@ -58,6 +68,16 @@
 			(type default)
 		)
 		(uuid "2936b044-4cf0-4a9c-948e-4f7f168f9f8f")
+	)
+	(wire
+		(pts
+			(xy 146.05 64.77) (xy 146.05 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d57cb3a-ef19-4879-a32d-32c8f976b85d")
 	)
 	(wire
 		(pts
@@ -98,6 +118,16 @@
 			(type default)
 		)
 		(uuid "3bbe50cf-b279-4bc4-9def-8e54c86136b4")
+	)
+	(wire
+		(pts
+			(xy 148.59 64.77) (xy 148.59 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f997dcb-608e-4985-a3b0-e79bc0c7b7b9")
 	)
 	(wire
 		(pts
@@ -251,6 +281,26 @@
 	)
 	(wire
 		(pts
+			(xy 193.04 54.61) (xy 193.04 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdad406b-d1f6-4e36-b944-023f66006339")
+	)
+	(wire
+		(pts
+			(xy 162.56 52.07) (xy 195.58 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d528e73c-d6f6-4e67-bb03-647a51a12a4b")
+	)
+	(wire
+		(pts
 			(xy 166.37 115.57) (xy 180.34 115.57)
 		)
 		(stroke
@@ -311,6 +361,26 @@
 	)
 	(wire
 		(pts
+			(xy 198.12 49.53) (xy 162.56 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1b61c07-2cd7-4d7c-b33e-010fb7e80c32")
+	)
+	(wire
+		(pts
+			(xy 198.12 69.85) (xy 198.12 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2203034-34a5-4902-b5dc-652880f121b5")
+	)
+	(wire
+		(pts
 			(xy 87.63 148.59) (xy 92.71 148.59)
 		)
 		(stroke
@@ -358,6 +428,16 @@
 			(type default)
 		)
 		(uuid "f670f2cf-d845-42c5-a6b3-0c54a41937a5")
+	)
+	(wire
+		(pts
+			(xy 195.58 52.07) (xy 195.58 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd453174-1414-4899-9321-f6d83dabeee0")
 	)
 	(label "UART1_TX"
 		(at 224.79 130.81 0)
@@ -810,8 +890,8 @@
 		)
 	)
 	(sheet
-		(at 140.97 166.37)
-		(size 19.05 19.05)
+		(at 127 46.99)
+		(size 35.56 17.78)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -826,7 +906,7 @@
 		)
 		(uuid "cd9508c6-33b2-4092-8e87-ecfbafcee27b")
 		(property "Sheetname" "OSD"
-			(at 140.97 165.6584 0)
+			(at 127 46.2784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -834,13 +914,63 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "untitled.kicad_sch"
-			(at 140.97 186.0046 0)
+		(property "Sheetfile" "osd.kicad_sch"
+			(at 127 65.3546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "OSD_RX" input
+			(at 146.05 64.77 270)
+			(uuid "6d442dab-a98b-435a-bade-cc9365e26038")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OSD_TX" input
+			(at 148.59 64.77 270)
+			(uuid "cb63b421-e646-4011-b333-2be9531ac27a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SA_OUT" input
+			(at 162.56 52.07 0)
+			(uuid "48c3f9b0-f992-4eba-9c77-eeaebee0e86d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VIDEO_IN" input
+			(at 162.56 49.53 0)
+			(uuid "149eb279-8b49-4fc5-8369-d1f56d7beece")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VIDEO_OUT" input
+			(at 162.56 54.61 0)
+			(uuid "90d90927-be7e-441a-9235-ef5e7182ee8e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -1145,6 +1275,26 @@
 				(justify right)
 			)
 		)
+		(pin "UART2_RX" input
+			(at 148.59 68.58 90)
+			(uuid "b39a2820-9745-4c3f-8ff2-1199365ba41f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "UART2_TX" input
+			(at 146.05 68.58 90)
+			(uuid "4db08e47-24e6-454f-84bb-d4407f805e06")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "OpenFC"
 				(path "/fb88b6f9-ee39-4640-a9d4-04a17ceeac64"
@@ -1367,6 +1517,36 @@
 				(justify left)
 			)
 		)
+		(pin "CAMERA" input
+			(at 198.12 69.85 90)
+			(uuid "ab9db03d-4a6a-411c-a2f8-d8414c8f0a0b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SMARTAUDIO" input
+			(at 195.58 69.85 90)
+			(uuid "0ad00589-be8b-4979-bb46-5be9ddc79b66")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VTX" input
+			(at 193.04 69.85 90)
+			(uuid "c2d860f2-6be2-47c5-9d20-edfefc9505e0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "OpenFC"
 				(path "/fb88b6f9-ee39-4640-a9d4-04a17ceeac64"
@@ -1438,8 +1618,8 @@
 		)
 	)
 	(sheet
-		(at 64.77 43.18)
-		(size 154.94 12.7)
+		(at 33.02 66.04)
+		(size 26.67 90.17)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1454,7 +1634,7 @@
 		)
 		(uuid "f8522f96-c979-41d2-ae00-e5ad899a3161")
 		(property "Sheetname" "POWER"
-			(at 64.77 42.4684 0)
+			(at 33.02 65.3284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1463,7 +1643,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 64.77 56.4646 0)
+			(at 33.02 156.7946 0)
 			(effects
 				(font
 					(size 1.27 1.27)

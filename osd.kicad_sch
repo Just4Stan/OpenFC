@@ -2190,6 +2190,16 @@
 		)
 		(uuid "e9c9bb28-dd29-4cbd-8e95-3518d376af60")
 	)
+	(label "OSD_BOOT"
+		(at 130.81 116.84 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "531e0be1-3666-4166-b728-6ae516ddc8d5")
+	)
 	(label "NRST"
 		(at 125.73 88.9 0)
 		(effects
@@ -2263,17 +2273,6 @@
 			(justify left)
 		)
 		(uuid "ab8a6a8b-0a67-4bf9-a226-7b577808d455")
-	)
-	(hierarchical_label "OSD_BOOT"
-		(shape input)
-		(at 130.81 116.84 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "beb44e3f-c96e-4622-960a-42cc1eda46b3")
 	)
 	(hierarchical_label "OSD_TX"
 		(shape input)
@@ -3078,7 +3077,7 @@
 			(uuid "7045745d-2d9c-4420-93f4-edefac948cce")
 		)
 		(instances
-			(project ""
+			(project "OpenFC"
 				(path "/fb88b6f9-ee39-4640-a9d4-04a17ceeac64/cd9508c6-33b2-4092-8e87-ecfbafcee27b"
 					(reference "L1")
 					(unit 1)
@@ -3452,6 +3451,72 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
+		(at 130.81 116.84 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d701e8a4-8598-4b61-9003-7ad99c5bce30")
+		(property "Reference" "TP3"
+			(at 129.032 122.174 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 129.032 119.634 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 125.73 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 125.73 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 130.81 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "587785b0-1ace-4a7a-8bae-63af3cd05994")
+		)
+		(instances
+			(project "OpenFC"
+				(path "/fb88b6f9-ee39-4640-a9d4-04a17ceeac64/cd9508c6-33b2-4092-8e87-ecfbafcee27b"
+					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
 		(at 165.1 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3508,7 +3573,7 @@
 			(uuid "9bcbbcc4-670a-4499-9893-def51e179e89")
 		)
 		(instances
-			(project ""
+			(project "OpenFC"
 				(path "/fb88b6f9-ee39-4640-a9d4-04a17ceeac64/cd9508c6-33b2-4092-8e87-ecfbafcee27b"
 					(reference "TP1")
 					(unit 1)
