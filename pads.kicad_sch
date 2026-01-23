@@ -1085,7 +1085,7 @@
 	)
 	(text "RSSI"
 		(exclude_from_sim no)
-		(at 29.464 96.52 90)
+		(at 33.274 96.52 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1115,13 +1115,23 @@
 	)
 	(text "RSSI"
 		(exclude_from_sim no)
-		(at 37.084 96.52 90)
+		(at 40.894 96.52 90)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 		(uuid "5b203051-675f-494c-a490-eb0d109384ea")
+	)
+	(text "Free UART (extra)"
+		(exclude_from_sim no)
+		(at 192.532 125.984 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "78f722f4-6751-449f-a65e-6ddffeee78ef")
 	)
 	(text "buzzer\n"
 		(exclude_from_sim no)
@@ -1163,6 +1173,16 @@
 		)
 		(uuid "aaef2fbb-270e-426d-900e-22ff067c6e9d")
 	)
+	(text "EXTRA ADC"
+		(exclude_from_sim no)
+		(at 62.738 156.718 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ba769f0e-8cbc-4fa9-9f69-ea586477e257")
+	)
 	(text "for arm mounted led strips"
 		(exclude_from_sim no)
 		(at 68.326 22.352 0)
@@ -1196,6 +1216,16 @@
 			(type default)
 		)
 		(uuid "023c9c3c-7a2a-425b-b9a5-68d4609bb066")
+	)
+	(wire
+		(pts
+			(xy 181.61 146.05) (xy 181.61 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0257ff4e-a9be-4718-b880-a3a625305160")
 	)
 	(wire
 		(pts
@@ -1269,6 +1299,16 @@
 	)
 	(wire
 		(pts
+			(xy 143.51 107.95) (xy 143.51 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f6960a2-cdfb-40ec-906d-0dc42dd31762")
+	)
+	(wire
+		(pts
 			(xy 189.23 29.21) (xy 194.31 29.21)
 		)
 		(stroke
@@ -1329,7 +1369,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 107.95) (xy 36.83 110.49)
+			(xy 40.64 107.95) (xy 40.64 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1429,7 +1469,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 57.15) (xy 179.07 59.69)
+			(xy 179.07 55.88) (xy 179.07 59.69)
 		)
 		(stroke
 			(width 0)
@@ -1456,6 +1496,16 @@
 			(type default)
 		)
 		(uuid "57615c5b-861c-4a6d-9623-a090170d1589")
+	)
+	(wire
+		(pts
+			(xy 194.31 146.05) (xy 194.31 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "614ca4eb-c129-43aa-993d-974c0b7ad6ba")
 	)
 	(wire
 		(pts
@@ -1559,16 +1609,6 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 107.95) (xy 74.93 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "83807e27-c542-447d-af8a-a0bf48a79d75")
-	)
-	(wire
-		(pts
 			(xy 191.77 57.15) (xy 191.77 59.69)
 		)
 		(stroke
@@ -1649,6 +1689,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 107.95) (xy 137.16 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6764edb-1971-4cc4-be6a-b209ebf6817d")
+	)
+	(wire
+		(pts
 			(xy 135.89 62.23) (xy 135.89 59.69)
 		)
 		(stroke
@@ -1709,6 +1759,16 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 146.05) (xy 115.57 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7f67f3e-aaa4-40b7-a085-fc49e0d68a3c")
+	)
+	(wire
+		(pts
 			(xy 134.62 63.5) (xy 134.62 66.04)
 		)
 		(stroke
@@ -1739,7 +1799,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 107.95) (xy 29.21 110.49)
+			(xy 33.02 107.95) (xy 33.02 110.49)
 		)
 		(stroke
 			(width 0)
@@ -1809,6 +1869,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 146.05) (xy 67.31 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ded7c2f9-70f0-4671-a644-485e7d1b400f")
+	)
+	(wire
+		(pts
 			(xy 147.32 60.96) (xy 138.43 60.96)
 		)
 		(stroke
@@ -1826,6 +1896,16 @@
 			(type default)
 		)
 		(uuid "e1b8c9e8-c962-42a7-a6fb-2e7386037eda")
+	)
+	(wire
+		(pts
+			(xy 187.96 146.05) (xy 187.96 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea4ed361-6b0b-44cd-b730-f83b914d8980")
 	)
 	(wire
 		(pts
@@ -1849,6 +1929,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 146.05) (xy 59.69 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0c7b3ef-15fd-4e32-9d94-0f8ab387fd74")
+	)
+	(wire
+		(pts
 			(xy 52.07 62.23) (xy 52.07 64.77)
 		)
 		(stroke
@@ -1856,6 +1946,16 @@
 			(type default)
 		)
 		(uuid "f1734027-b55b-409e-855a-2b26b9fe5460")
+	)
+	(wire
+		(pts
+			(xy 200.66 146.05) (xy 200.66 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3194f9d-ffb4-4a11-b7e6-42e78f3feece")
 	)
 	(wire
 		(pts
@@ -2040,17 +2140,6 @@
 		)
 		(uuid "51f6dae7-da45-4cb6-a2e4-ccd8bc169a0f")
 	)
-	(hierarchical_label "SMARTAUDIO"
-		(shape input)
-		(at 137.16 107.95 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "65ab5a61-4d3d-4756-847d-a2e1f2c4a61c")
-	)
 	(hierarchical_label "I2C_SCL"
 		(shape input)
 		(at 77.47 143.51 90)
@@ -2117,6 +2206,17 @@
 		)
 		(uuid "89f5f98a-fbc6-414c-8238-40f2e96c2aaf")
 	)
+	(hierarchical_label "ADC2"
+		(shape input)
+		(at 59.69 143.51 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "93252745-8d82-42ee-915c-3a6eb27d5379")
+	)
 	(hierarchical_label "BUZZER-"
 		(shape input)
 		(at 88.9 110.49 270)
@@ -2172,9 +2272,9 @@
 		)
 		(uuid "bddbca48-b2a3-4ac1-a34b-aa7961669586")
 	)
-	(hierarchical_label "ADC2"
+	(hierarchical_label "RSSI"
 		(shape input)
-		(at 36.83 110.49 270)
+		(at 40.64 114.3 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2194,6 +2294,17 @@
 		)
 		(uuid "d8f0d3ec-5521-4fc3-be23-d1586718efc0")
 	)
+	(hierarchical_label "PIOUART1_TX"
+		(shape input)
+		(at 194.31 143.51 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e2c82dba-94c8-470c-965c-ab85e58bb1cf")
+	)
 	(hierarchical_label "ELRS_TX"
 		(shape input)
 		(at 62.23 110.49 270)
@@ -2207,7 +2318,7 @@
 	)
 	(hierarchical_label "SBUS"
 		(shape input)
-		(at 179.07 57.15 90)
+		(at 179.07 55.88 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2215,6 +2326,17 @@
 			(justify left)
 		)
 		(uuid "efbf817b-4052-44e5-aa62-d73fa6870e83")
+	)
+	(hierarchical_label "PIOUART1_RX"
+		(shape input)
+		(at 200.66 143.51 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f28fd29a-835c-4cfa-b906-1a575ccdadea")
 	)
 	(hierarchical_label "M2"
 		(shape input)
@@ -2300,6 +2422,72 @@
 			(project "OpenFC"
 				(path "/fb88b6f9-ee39-4640-a9d4-04a17ceeac64/e8ddc219-4a16-40b0-9f20-756a7d038611"
 					(reference "J20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 115.57 143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "03174f70-4e29-4f4b-932a-3797896e60de")
+		(property "Reference" "#PWR056"
+			(at 115.57 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 115.57 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.57 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 115.57 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2e561290-075d-404d-9a52-724b8e5a3399")
+		)
+		(instances
+			(project "OpenFC"
+				(path "/fb88b6f9-ee39-4640-a9d4-04a17ceeac64/e8ddc219-4a16-40b0-9f20-756a7d038611"
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -2441,8 +2629,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 187.96 151.13 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0e87757e-8300-4dd2-93a6-df66c0681af3")
+		(property "Reference" "J54"
+			(at 189.484 153.924 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "5V"
+			(at 189.484 154.432 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "lib:small_pad"
+			(at 187.96 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 187.96 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 187.96 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "497dcca0-9ff2-41da-8254-79f192a3233e")
+		)
+		(instances
+			(project "OpenFC"
+				(path "/fb88b6f9-ee39-4640-a9d4-04a17ceeac64/e8ddc219-4a16-40b0-9f20-756a7d038611"
+					(reference "J54")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 29.21 110.49 0)
+		(at 33.02 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2451,7 +2706,7 @@
 		(fields_autoplaced yes)
 		(uuid "0eb35e44-0bf3-4045-a3da-222f5f865f4f")
 		(property "Reference" "#PWR0110"
-			(at 29.21 116.84 0)
+			(at 33.02 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2460,7 +2715,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 29.21 115.57 0)
+			(at 33.02 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2468,7 +2723,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 29.21 110.49 0)
+			(at 33.02 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2477,7 +2732,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 29.21 110.49 0)
+			(at 33.02 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2486,7 +2741,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 29.21 110.49 0)
+			(at 33.02 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2501,6 +2756,72 @@
 			(project "OpenFC"
 				(path "/fb88b6f9-ee39-4640-a9d4-04a17ceeac64/e8ddc219-4a16-40b0-9f20-756a7d038611"
 					(reference "#PWR0110")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 187.96 143.51 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0f04149e-2142-4d46-b9a4-25e973d71b1c")
+		(property "Reference" "#PWR033"
+			(at 187.96 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 187.96 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 187.96 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 187.96 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7648651e-2391-45c3-a92c-15b6c650feca")
+		)
+		(instances
+			(project "OpenFC"
+				(path "/fb88b6f9-ee39-4640-a9d4-04a17ceeac64/e8ddc219-4a16-40b0-9f20-756a7d038611"
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -2907,6 +3228,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 137.16 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2777d915-bb1b-42e7-83b0-92c7254226c0")
+		(property "Reference" "#PWR051"
+			(at 137.16 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 137.16 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 137.16 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8559faa8-91c4-43fa-a2cf-75b2f05f100d")
+		)
+		(instances
+			(project "OpenFC"
+				(path "/fb88b6f9-ee39-4640-a9d4-04a17ceeac64/e8ddc219-4a16-40b0-9f20-756a7d038611"
+					(reference "#PWR051")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "lib:SM06B-SRSS-TB(LF)(SN)")
 		(at 184.15 64.77 270)
 		(unit 1)
@@ -3131,6 +3518,73 @@
 			(project "OpenFC"
 				(path "/fb88b6f9-ee39-4640-a9d4-04a17ceeac64/e8ddc219-4a16-40b0-9f20-756a7d038611"
 					(reference "#PWR0161")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 137.16 102.87 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "33908e13-09dc-473e-a9d1-86fe3bcd750b")
+		(property "Reference" "J41"
+			(at 135.636 100.076 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "5V"
+			(at 135.636 99.568 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "lib:small_pad"
+			(at 137.16 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 137.16 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 137.16 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3209bc41-a715-4245-8250-5be940b0ce1b")
+		)
+		(instances
+			(project "OpenFC"
+				(path "/fb88b6f9-ee39-4640-a9d4-04a17ceeac64/e8ddc219-4a16-40b0-9f20-756a7d038611"
+					(reference "J41")
 					(unit 1)
 				)
 			)
@@ -3471,35 +3925,18 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 74.93 102.87 90)
+		(lib_name "+5V_1")
+		(lib_id "power:+5V")
+		(at 143.51 110.49 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "3ee8578b-0385-4d83-af5c-85be43806c78")
-		(property "Reference" "J41"
-			(at 73.406 100.076 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "5V"
-			(at 73.406 99.568 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "lib:small_pad"
-			(at 74.93 102.87 0)
+		(fields_autoplaced yes)
+		(uuid "3be8ecf5-41f1-46a6-8834-7b8d7f27619a")
+		(property "Reference" "#PWR055"
+			(at 143.51 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3507,8 +3944,16 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 74.93 102.87 0)
+		(property "Value" "+12V"
+			(at 143.51 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 143.51 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3516,8 +3961,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 74.93 102.87 0)
+		(property "Datasheet" ""
+			(at 143.51 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 143.51 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3526,12 +3980,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "d386a67d-5dac-4fdd-a406-a9a00b31e5cc")
+			(uuid "0a00eda3-99ee-4d0e-bf43-7a1fa555d623")
 		)
 		(instances
 			(project "OpenFC"
 				(path "/fb88b6f9-ee39-4640-a9d4-04a17ceeac64/e8ddc219-4a16-40b0-9f20-756a7d038611"
-					(reference "J41")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -3876,6 +4330,73 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
+		(at 143.51 102.87 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "46387901-eebf-4db1-a65d-6dced2247e10")
+		(property "Reference" "J58"
+			(at 141.986 100.076 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "5V"
+			(at 141.986 99.568 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "lib:small_pad"
+			(at 143.51 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 143.51 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 143.51 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ec158694-cfc4-45d7-8b27-037d1823c2b1")
+		)
+		(instances
+			(project "OpenFC"
+				(path "/fb88b6f9-ee39-4640-a9d4-04a17ceeac64/e8ddc219-4a16-40b0-9f20-756a7d038611"
+					(reference "J58")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
 		(at 124.46 102.87 270)
 		(mirror x)
 		(unit 1)
@@ -3944,7 +4465,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 29.21 102.87 90)
+		(at 33.02 102.87 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3952,7 +4473,7 @@
 		(dnp no)
 		(uuid "49adf456-5e77-44a3-9601-998bc0895c90")
 		(property "Reference" "J9"
-			(at 27.686 100.076 90)
+			(at 31.496 100.076 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3961,7 +4482,7 @@
 			)
 		)
 		(property "Value" "5V"
-			(at 27.686 99.568 90)
+			(at 31.496 99.568 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3971,7 +4492,7 @@
 			)
 		)
 		(property "Footprint" "lib:small_pad"
-			(at 29.21 102.87 0)
+			(at 33.02 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3980,7 +4501,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 29.21 102.87 0)
+			(at 33.02 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3989,7 +4510,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 29.21 102.87 0)
+			(at 33.02 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4144,6 +4665,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 67.31 151.13 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "522d5879-5e71-4bca-8f00-43eff0e25014")
+		(property "Reference" "J51"
+			(at 68.834 153.924 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "5V"
+			(at 68.834 154.432 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "lib:small_pad"
+			(at 67.31 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 67.31 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 67.31 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "36e06194-31b5-4dab-9c68-daaa90ac756d")
+		)
+		(instances
+			(project "OpenFC"
+				(path "/fb88b6f9-ee39-4640-a9d4-04a17ceeac64/e8ddc219-4a16-40b0-9f20-756a7d038611"
+					(reference "J51")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "+5V_1")
 		(lib_id "power:+5V")
 		(at 45.72 64.77 180)
@@ -4280,7 +4868,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 36.83 102.87 90)
+		(at 40.64 102.87 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4288,7 +4876,7 @@
 		(dnp no)
 		(uuid "570cbe7c-cd27-4d23-be44-0e8c0c0a7996")
 		(property "Reference" "J56"
-			(at 35.306 100.076 90)
+			(at 39.116 100.076 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4297,7 +4885,7 @@
 			)
 		)
 		(property "Value" "5V"
-			(at 35.306 99.568 90)
+			(at 39.116 99.568 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4307,7 +4895,7 @@
 			)
 		)
 		(property "Footprint" "lib:small_pad"
-			(at 36.83 102.87 0)
+			(at 40.64 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4316,7 +4904,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 36.83 102.87 0)
+			(at 40.64 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4325,7 +4913,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 36.83 102.87 0)
+			(at 40.64 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4543,6 +5131,73 @@
 			(project "OpenFC"
 				(path "/fb88b6f9-ee39-4640-a9d4-04a17ceeac64/e8ddc219-4a16-40b0-9f20-756a7d038611"
 					(reference "J27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 200.66 151.13 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "596907a2-7af1-4d49-9b7d-a503974d64f0")
+		(property "Reference" "J57"
+			(at 202.184 153.924 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "5V"
+			(at 202.184 154.432 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "lib:small_pad"
+			(at 200.66 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 200.66 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 200.66 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3990702f-8e76-4f94-a080-3c74281757fa")
+		)
+		(instances
+			(project "OpenFC"
+				(path "/fb88b6f9-ee39-4640-a9d4-04a17ceeac64/e8ddc219-4a16-40b0-9f20-756a7d038611"
+					(reference "J57")
 					(unit 1)
 				)
 			)
@@ -5083,6 +5738,139 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 67.31 143.51 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7456cf43-7e30-44ff-b933-7bf07b3a5d36")
+		(property "Reference" "#PWR020"
+			(at 67.31 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 67.31 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.31 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 67.31 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2d4071c2-38ca-46f9-a1ab-27db83edbed4")
+		)
+		(instances
+			(project "OpenFC"
+				(path "/fb88b6f9-ee39-4640-a9d4-04a17ceeac64/e8ddc219-4a16-40b0-9f20-756a7d038611"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 115.57 151.13 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "760a6ab8-77ac-45d8-b3f3-6a5bb2e3e504")
+		(property "Reference" "J59"
+			(at 117.094 154.178 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "5V"
+			(at 117.094 154.432 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "lib:small_pad"
+			(at 115.57 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 115.57 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 115.57 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fb2e6a14-99bf-46c2-8d21-2c8d65cb9c3e")
+		)
+		(instances
+			(project "OpenFC"
+				(path "/fb88b6f9-ee39-4640-a9d4-04a17ceeac64/e8ddc219-4a16-40b0-9f20-756a7d038611"
+					(reference "J59")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
 		(at 62.23 102.87 90)
 		(unit 1)
@@ -5314,72 +6102,6 @@
 			(project ""
 				(path "/fb88b6f9-ee39-4640-a9d4-04a17ceeac64/e8ddc219-4a16-40b0-9f20-756a7d038611"
 					(reference "P1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 74.93 110.49 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7c4edd66-27a5-419e-8fee-26f0854d63da")
-		(property "Reference" "#PWR029"
-			(at 74.93 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 74.93 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 74.93 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 74.93 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 74.93 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d0250c73-626d-4dac-8c5d-65f4fafdd282")
-		)
-		(instances
-			(project "OpenFC"
-				(path "/fb88b6f9-ee39-4640-a9d4-04a17ceeac64/e8ddc219-4a16-40b0-9f20-756a7d038611"
-					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -5992,6 +6714,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 59.69 151.13 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "92d369fa-e390-46b4-9c18-b0bb9cc5fd30")
+		(property "Reference" "J52"
+			(at 61.214 153.924 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "5V"
+			(at 61.214 154.432 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "lib:small_pad"
+			(at 59.69 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 59.69 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 59.69 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4dc9ada4-c5d9-4550-976a-fa309865416d")
+		)
+		(instances
+			(project "OpenFC"
+				(path "/fb88b6f9-ee39-4640-a9d4-04a17ceeac64/e8ddc219-4a16-40b0-9f20-756a7d038611"
+					(reference "J52")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 118.11 24.13 270)
 		(unit 1)
@@ -6398,6 +7187,140 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
+		(at 181.61 151.13 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a4f8de6c-19da-49b1-88f9-fa9d12ad5bfe")
+		(property "Reference" "J34"
+			(at 183.134 153.924 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "5V"
+			(at 183.134 154.432 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "lib:small_pad"
+			(at 181.61 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 181.61 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 181.61 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1c384160-761b-48cf-a839-560bbaaafaac")
+		)
+		(instances
+			(project "OpenFC"
+				(path "/fb88b6f9-ee39-4640-a9d4-04a17ceeac64/e8ddc219-4a16-40b0-9f20-756a7d038611"
+					(reference "J34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 194.31 151.13 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a9b6d5c2-6c14-4fac-880b-e389d3ee23df")
+		(property "Reference" "J55"
+			(at 195.834 153.924 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "5V"
+			(at 195.834 154.432 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "lib:small_pad"
+			(at 194.31 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 194.31 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 194.31 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "20d1e2e1-353c-4015-b3cb-8b884b467bdd")
+		)
+		(instances
+			(project "OpenFC"
+				(path "/fb88b6f9-ee39-4640-a9d4-04a17ceeac64/e8ddc219-4a16-40b0-9f20-756a7d038611"
+					(reference "J55")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
 		(at 123.19 71.12 90)
 		(mirror x)
 		(unit 1)
@@ -6527,74 +7450,6 @@
 			(project "OpenFC"
 				(path "/fb88b6f9-ee39-4640-a9d4-04a17ceeac64/e8ddc219-4a16-40b0-9f20-756a7d038611"
 					(reference "#PWR0303")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 137.16 102.87 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ca0d21f1-c37e-490c-891a-880f9d0d4cd6")
-		(property "Reference" "J34"
-			(at 138.684 100.076 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "5V"
-			(at 138.684 99.568 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "lib:small_pad"
-			(at 137.16 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 137.16 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 137.16 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2296c91e-041a-41d5-8c0f-002a96b2e36d")
-		)
-		(instances
-			(project "OpenFC"
-				(path "/fb88b6f9-ee39-4640-a9d4-04a17ceeac64/e8ddc219-4a16-40b0-9f20-756a7d038611"
-					(reference "J34")
 					(unit 1)
 				)
 			)
@@ -6999,6 +7854,73 @@
 			(project "OpenFC"
 				(path "/fb88b6f9-ee39-4640-a9d4-04a17ceeac64/e8ddc219-4a16-40b0-9f20-756a7d038611"
 					(reference "J24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "+5V_1")
+		(lib_id "power:+5V")
+		(at 181.61 143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e16e4a89-2ee8-47ef-8683-d073ca57f825")
+		(property "Reference" "#PWR032"
+			(at 181.61 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 181.61 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 181.61 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 181.61 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 181.61 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "03208fa6-e8d6-4a92-aed9-209268406e80")
+		)
+		(instances
+			(project "OpenFC"
+				(path "/fb88b6f9-ee39-4640-a9d4-04a17ceeac64/e8ddc219-4a16-40b0-9f20-756a7d038611"
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
