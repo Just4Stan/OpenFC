@@ -3,8 +3,6 @@
 Open-source Betaflight flight controller with integrated break-off ELRS receiver, based on the RP2354A microcontroller.
 <img width="1525" height="519" alt="Screenshot 2026-01-18 at 21 32 46" src="https://github.com/user-attachments/assets/d9c790f6-fd75-4f72-9c20-73d8c4dd3b92" />
 
-
-
 ## Features
 
 ### Microcontroller
@@ -50,6 +48,24 @@ Open-source Betaflight flight controller with integrated break-off ELRS receiver
 - 10V and 5V regulated outputs
 - Dedicated 3.3V_GYRO rail with additional filtering
 
+## Repository Structure
+
+```
+OpenFC/
+├── README.md
+├── .gitignore
+├── hardware/          ← KiCad project, libraries, and production files
+│   ├── OpenFC.kicad_pro
+│   ├── *.kicad_sch    ← Hierarchical schematics
+│   ├── OpenFC.kicad_pcb
+│   ├── lib.kicad_sym  ← Custom symbol library
+│   ├── lib.pretty/    ← Custom footprint library
+│   ├── lib.3dshapes/  ← 3D models
+│   ├── production/    ← Gerbers, BOM, positions (all versions)
+│   └── tools/         ← Analysis scripts
+└── images/            ← Board renders
+```
+
 ## Schematic Hierarchy
 
 - `OpenFC.kicad_sch` - Top-level schematic
@@ -62,21 +78,13 @@ Open-source Betaflight flight controller with integrated break-off ELRS receiver
 - `compass.kicad_sch` - LIS3MDLTR magnetometer (not populated, but there's space for it)
 - `blackbox.kicad_sch` - W25Q128 flash memory
 - `leds.kicad_sch` - Status LEDs
+- `osd.kicad_sch` - OSD circuitry
 - `connectors.kicad_sch` - External connectors
 - `pads.kicad_sch` - Solder pads and test points
 
 ## Design Files
 
-This project uses **KiCad 9.0** for schematic and PCB design.
-
-### Directory Structure
-- `*.kicad_sch` - Schematic files
-- `OpenFC.kicad_pcb` - PCB layout
-- `OpenFC.kicad_pro` - KiCad project file
-- `lib.kicad_sym` - Custom symbol library
-- `lib.pretty/` - Custom footprint library
-- `lib.3dshapes/` - 3D models for components
-- `production/` - Fabrication outputs (Gerbers, BOM, etc.)
+This project uses **KiCad 9.0** for schematic and PCB design. All symbol, footprint, and 3D model libraries are included in the repository — no external library setup is required.
 
 ## License
 

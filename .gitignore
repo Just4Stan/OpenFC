@@ -3,6 +3,7 @@
 *-backups/
 _autosave-*
 *~
+~*.lck
 
 # KiCad lock files
 *.lck
@@ -11,14 +12,33 @@ _autosave-*
 *.kicad_prl
 fp-info-cache
 
+# KiCad autosave
+\#auto_saved_files#
+
+# Generated JSON (extraction scripts output)
+extracted_*.json
+ext2_*.json
+netlist_*.json
+
+# Python
+__pycache__/
+*.pyc
+
 # macOS
 .DS_Store
 .AppleDouble
 .LSOverride
-
-# Thumbnails
 ._*
 
 # Temporary files
 *.tmp
 *.temp
+
+# Stencil output
+stencil_out/
+
+# Production backups (keep main production files, not backups)
+hardware/production/backups/
+
+# Claude local settings
+.claude/
