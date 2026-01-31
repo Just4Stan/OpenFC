@@ -723,6 +723,18 @@
     [
       "cd9508c6-33b2-4092-8e87-ecfbafcee27b",
       "OSD"
+    ],
+    [
+      "07eb9b62-5f3c-4c50-980e-7ccad2ad777d",
+      "LED's1"
+    ],
+    [
+      "fa1d47d0-693b-4eff-ba9c-93cac71e6315",
+      "LED's2"
+    ],
+    [
+      "ac0dc811-0336-4f21-adb6-e2e2130918c8",
+      "LED's3"
     ]
   ],
   "text_variables": {}

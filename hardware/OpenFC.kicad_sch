@@ -517,6 +517,16 @@
 		)
 		(uuid "0e71d75b-748d-48bb-938f-9a9f68bbebcd")
 	)
+	(label "LED"
+		(at 219.71 144.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0ff6fd3d-2fbc-48f4-865d-20f3a933afb1")
+	)
 	(label "I2C_SCL"
 		(at 93.98 133.35 0)
 		(effects
@@ -536,6 +546,16 @@
 			(justify left bottom)
 		)
 		(uuid "25e1f753-3bdc-45a1-925e-756956196c86")
+	)
+	(label "LED"
+		(at 180.34 154.94 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "35efb0e2-1637-47b1-ba3a-f8931b0b00d4")
 	)
 	(label "I2C_SCL"
 		(at 224.79 109.22 0)
@@ -588,6 +608,16 @@
 		(uuid "e3036286-2b33-4d7c-ad8f-eb97a920bfe4")
 	)
 	(label "LED"
+		(at 219.71 154.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e95169ea-be95-4f4d-a770-d974d59a1af6")
+	)
+	(label "LED"
 		(at 224.79 123.19 0)
 		(effects
 			(font
@@ -608,8 +638,60 @@
 		(uuid "f590bb4b-b829-4d13-b033-c5062a76592e")
 	)
 	(sheet
+		(at 180.34 152.4)
+		(size 13.97 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "07eb9b62-5f3c-4c50-980e-7ccad2ad777d")
+		(property "Sheetname" "LED's1"
+			(at 180.34 151.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "leds.kicad_sch"
+			(at 180.34 158.0646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "LED_STRIP" input
+			(at 180.34 154.94 180)
+			(uuid "b7ee05df-8609-49a0-b51c-3efbc85b84a4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "OpenFC"
+				(path "/fb88b6f9-ee39-4640-a9d4-04a17ceeac64"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 180.34 142.24)
-		(size 39.37 5.08)
+		(size 13.97 5.08)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -933,6 +1015,58 @@
 			(project "OpenFC"
 				(path "/fb88b6f9-ee39-4640-a9d4-04a17ceeac64"
 					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 205.74 152.4)
+		(size 13.97 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ac0dc811-0336-4f21-adb6-e2e2130918c8")
+		(property "Sheetname" "LED's3"
+			(at 205.74 151.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "leds.kicad_sch"
+			(at 205.74 158.0646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "LED_STRIP" input
+			(at 219.71 154.94 0)
+			(uuid "f540c05a-be24-4c07-8c1b-fe46aa219374")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "OpenFC"
+				(path "/fb88b6f9-ee39-4640-a9d4-04a17ceeac64"
+					(page "14")
 				)
 			)
 		)
@@ -1813,6 +1947,58 @@
 			(project "OpenFC"
 				(path "/fb88b6f9-ee39-4640-a9d4-04a17ceeac64"
 					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 205.74 142.24)
+		(size 13.97 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "fa1d47d0-693b-4eff-ba9c-93cac71e6315")
+		(property "Sheetname" "LED's2"
+			(at 205.74 141.5284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "leds.kicad_sch"
+			(at 205.74 147.9046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "LED_STRIP" input
+			(at 219.71 144.78 0)
+			(uuid "fe2d5364-bb1f-4e7f-8bab-25991b438715")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "OpenFC"
+				(path "/fb88b6f9-ee39-4640-a9d4-04a17ceeac64"
+					(page "13")
 				)
 			)
 		)

@@ -1991,7 +1991,7 @@
 		(at 259.08 165.1)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e639493e-57d2-46b7-afb5-d83f8dc6a102")
+		(uuid "72a803a0-0632-4733-af01-1e7c5ebf772c")
 	)
 	(junction
 		(at 137.16 95.25)
@@ -2291,6 +2291,16 @@
 	)
 	(wire
 		(pts
+			(xy 232.41 147.32) (xy 236.22 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88f76e54-fc08-454c-aef2-5c1dca1d1596")
+	)
+	(wire
+		(pts
 			(xy 232.41 93.98) (xy 248.92 93.98)
 		)
 		(stroke
@@ -2430,7 +2440,7 @@
 		(uuid "fd9b62d6-8e5a-424f-80f3-83f5d276c122")
 	)
 	(label "VID_IN"
-		(at 236.22 147.32 180)
+		(at 232.41 147.32 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2599,15 +2609,15 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 213.36 73.66 0)
+		(at 149.86 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "0e976b0f-52a7-46bf-93d7-36125c20fd10")
-		(property "Reference" "C49"
-			(at 213.36 71.12 0)
+		(uuid "01d6841d-6571-437f-a200-ecedbf4d8efc")
+		(property "Reference" "C64"
+			(at 149.86 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2616,7 +2626,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 216.662 73.66 0)
+			(at 153.162 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2624,8 +2634,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 214.3252 77.47 0)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 150.8252 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2634,7 +2644,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 213.36 73.66 0)
+			(at 149.86 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2643,15 +2653,15 @@
 			)
 		)
 		(property "Description" ""
-			(at 213.36 73.66 0)
+			(at 149.86 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "LCSC" "C1525"
-			(at 213.36 73.66 0)
+		(property "LCSC" "C76939"
+			(at 149.86 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2660,15 +2670,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "b9f39f46-e76f-47b3-9706-d2c228ca6450")
+			(uuid "e235767b-245a-4276-94ff-4ab8b1005ef2")
 		)
 		(pin "2"
-			(uuid "e08083b4-ed21-4db7-b8cd-5da01003074a")
+			(uuid "9b0da7f7-41c2-4b37-a7b0-05727e3dbfa3")
 		)
 		(instances
 			(project "OpenFC"
 				(path "/fb88b6f9-ee39-4640-a9d4-04a17ceeac64/cd9508c6-33b2-4092-8e87-ecfbafcee27b"
-					(reference "C49")
+					(reference "C64")
 					(unit 1)
 				)
 			)
@@ -2676,32 +2686,32 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 162.56 95.25 90)
+		(at 252.73 93.98 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "1777486b-8fd8-40bc-9a69-20df095961d3")
-		(property "Reference" "R27"
-			(at 162.56 88.9 90)
+		(uuid "039e8922-7548-4d46-b3c6-07c3ee397570")
+		(property "Reference" "R32"
+			(at 252.73 87.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "33R"
-			(at 162.56 91.44 90)
+		(property "Value" "30R"
+			(at 252.73 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 162.56 97.028 90)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 252.73 95.758 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2710,7 +2720,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 162.56 95.25 0)
+			(at 252.73 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2719,7 +2729,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 162.56 95.25 0)
+			(at 252.73 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2727,16 +2737,25 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "ef7dc92d-cc45-4844-88e4-9f07e677dbf3")
+		(property "LCSC" "C778391"
+			(at 252.73 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "f247f871-160b-4e25-be95-d51120705bce")
+			(uuid "2cc6ab1a-675b-47a7-9fff-855ad89d84be")
+		)
+		(pin "2"
+			(uuid "2c628a7f-6e37-4953-8635-10dfd468b2c5")
 		)
 		(instances
 			(project "OpenFC"
 				(path "/fb88b6f9-ee39-4640-a9d4-04a17ceeac64/cd9508c6-33b2-4092-8e87-ecfbafcee27b"
-					(reference "R27")
+					(reference "R32")
 					(unit 1)
 				)
 			)
@@ -2809,34 +2828,32 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 316.23 185.42 0)
+		(lib_id "Device:R")
+		(at 138.43 154.94 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "334754e1-59ac-46fc-bdb8-e1c2cb2f64e6")
-		(property "Reference" "C61"
-			(at 316.23 182.88 0)
+		(uuid "2148a3ed-fc64-4f67-9e70-e1047d10d168")
+		(property "Reference" "R21"
+			(at 138.43 149.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "100n"
-			(at 319.532 185.42 0)
+		(property "Value" "10k"
+			(at 138.43 152.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 317.1952 189.23 0)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 138.43 156.718 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2845,7 +2862,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 316.23 185.42 0)
+			(at 138.43 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2853,16 +2870,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 316.23 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C1525"
-			(at 316.23 185.42 0)
+		(property "Description" "Resistor"
+			(at 138.43 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2870,16 +2879,25 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "9ef668f5-57e2-4b51-ba6c-8b9e3cf5abb6")
+		(property "LCSC" "C473048"
+			(at 138.43 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "2"
-			(uuid "e6f6667a-8dc6-41bb-a1d7-4b09faf48d25")
+			(uuid "e21eb74d-ac03-44d0-b538-4474d757791f")
+		)
+		(pin "1"
+			(uuid "5a7bc086-b61a-4b2c-906f-7928e59eebbe")
 		)
 		(instances
 			(project "OpenFC"
 				(path "/fb88b6f9-ee39-4640-a9d4-04a17ceeac64/cd9508c6-33b2-4092-8e87-ecfbafcee27b"
-					(reference "C61")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -2946,6 +2964,158 @@
 			(project "OpenFC"
 				(path "/fb88b6f9-ee39-4640-a9d4-04a17ceeac64/cd9508c6-33b2-4092-8e87-ecfbafcee27b"
 					(reference "#PWR0104")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 138.43 125.73 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3f71a543-9c05-45db-b8ad-0784667e883b")
+		(property "Reference" "R30"
+			(at 138.43 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 138.43 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 138.43 127.508 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 138.43 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 138.43 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C473048"
+			(at 138.43 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "cb14515e-238a-4353-8e9e-40cb52c41fd1")
+		)
+		(pin "1"
+			(uuid "e73541d8-dd15-445d-b085-c0aac2cedeba")
+		)
+		(instances
+			(project "OpenFC"
+				(path "/fb88b6f9-ee39-4640-a9d4-04a17ceeac64/cd9508c6-33b2-4092-8e87-ecfbafcee27b"
+					(reference "R30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 247.65 165.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "48ffc747-903d-48b9-9b05-8a6d8b602004")
+		(property "Reference" "R10"
+			(at 247.65 160.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 247.65 162.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 247.65 166.878 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 247.65 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 247.65 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C473048"
+			(at 247.65 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ecd24973-bf61-498b-a62f-50b0bbbe24b2")
+		)
+		(pin "1"
+			(uuid "0f39440b-5442-4a02-af72-f97b616e1c5e")
+		)
+		(instances
+			(project "OpenFC"
+				(path "/fb88b6f9-ee39-4640-a9d4-04a17ceeac64/cd9508c6-33b2-4092-8e87-ecfbafcee27b"
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -3019,32 +3189,34 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 252.73 93.98 90)
+		(at 260.35 114.3 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "4b5833b2-3a44-49c3-9b12-3e7921a5b25c")
-		(property "Reference" "R32"
-			(at 252.73 87.63 90)
+		(uuid "5171886c-d48b-4621-b899-cc788cf40f09")
+		(property "Reference" "R24"
+			(at 262.89 113.0299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "33R"
-			(at 252.73 90.17 90)
+		(property "Value" "1k"
+			(at 262.89 115.5699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 252.73 95.758 90)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 262.128 114.3 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3053,7 +3225,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 252.73 93.98 0)
+			(at 260.35 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3062,7 +3234,16 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 252.73 93.98 0)
+			(at 260.35 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C270365"
+			(at 260.35 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3071,15 +3252,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "1b37dd14-6fe6-48bb-9b94-cd55a6c39e09")
+			(uuid "d4438008-3e49-4b62-ae4c-d375c70a218b")
 		)
 		(pin "1"
-			(uuid "e8ad79fb-72fe-4e4c-b878-3279069c0665")
+			(uuid "1da5bf6f-6c19-46a2-bbc3-896b03240656")
 		)
 		(instances
 			(project "OpenFC"
 				(path "/fb88b6f9-ee39-4640-a9d4-04a17ceeac64/cd9508c6-33b2-4092-8e87-ecfbafcee27b"
-					(reference "R32")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -3284,32 +3465,32 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 269.24 135.89 270)
+		(at 271.78 107.95 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "686ec02a-02ad-4141-93d9-c5849463fd51")
-		(property "Reference" "R25"
-			(at 269.24 129.54 90)
+		(uuid "6989d9a4-6f13-4f7d-8bdc-a1b60f689632")
+		(property "Reference" "R2"
+			(at 271.78 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "100k"
-			(at 269.24 132.08 90)
+		(property "Value" "1k"
+			(at 271.78 104.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 269.24 134.112 90)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 271.78 109.728 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3318,7 +3499,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 269.24 135.89 0)
+			(at 271.78 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3327,7 +3508,16 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 269.24 135.89 0)
+			(at 271.78 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C270365"
+			(at 271.78 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3336,15 +3526,92 @@
 			)
 		)
 		(pin "2"
-			(uuid "bbdc2fe4-1b54-44ad-9ac5-818d221b6c21")
+			(uuid "52060eb7-8452-4de0-9def-82c269860367")
 		)
 		(pin "1"
-			(uuid "f99e8c5e-bbc2-4de9-a8bf-c6fe8578eb09")
+			(uuid "c98fa08e-53ba-415f-8f4e-686d18aff9a8")
 		)
 		(instances
 			(project "OpenFC"
 				(path "/fb88b6f9-ee39-4640-a9d4-04a17ceeac64/cd9508c6-33b2-4092-8e87-ecfbafcee27b"
-					(reference "R25")
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 259.08 168.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "742b02df-b314-4b84-b76a-eca7bf2d69db")
+		(property "Reference" "C10"
+			(at 259.08 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 262.382 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 260.0452 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 259.08 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 259.08 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C76939"
+			(at 259.08 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "425f8c8a-7d94-4270-b912-7ca267aa986b")
+		)
+		(pin "2"
+			(uuid "1ebca6f9-ba06-476d-8da2-0de019f9430a")
+		)
+		(instances
+			(project "OpenFC"
+				(path "/fb88b6f9-ee39-4640-a9d4-04a17ceeac64/cd9508c6-33b2-4092-8e87-ecfbafcee27b"
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -3451,6 +3718,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 240.03 147.32 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7f03f1cf-659c-44d0-825e-ff0395910ad1")
+		(property "Reference" "R33"
+			(at 240.03 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "75R"
+			(at 240.03 143.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 240.03 149.098 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 240.03 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 240.03 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C473570"
+			(at 240.03 147.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b037becd-b371-4eca-8405-8a0ecefa0d4d")
+		)
+		(pin "1"
+			(uuid "bca6e6fc-980d-4d8d-b99f-b2257809542b")
+		)
+		(instances
+			(project "OpenFC"
+				(path "/fb88b6f9-ee39-4640-a9d4-04a17ceeac64/cd9508c6-33b2-4092-8e87-ecfbafcee27b"
+					(reference "R33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "lib:RB161QS-40_C28646385")
 		(at 137.16 100.33 270)
 		(unit 1)
@@ -3521,73 +3866,6 @@
 			(project "OpenFC"
 				(path "/fb88b6f9-ee39-4640-a9d4-04a17ceeac64/cd9508c6-33b2-4092-8e87-ecfbafcee27b"
 					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 271.78 107.95 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "838a3302-d63d-4694-8e4d-01a623494b06")
-		(property "Reference" "R2"
-			(at 269.748 105.156 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k"
-			(at 273.304 105.156 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 271.78 109.728 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 271.78 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 271.78 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "67909df8-cf86-41dc-ae1f-31f58f005e00")
-		)
-		(pin "1"
-			(uuid "f806f009-cb9d-4f38-aa22-b1a6a4adef9a")
-		)
-		(instances
-			(project "OpenFC"
-				(path "/fb88b6f9-ee39-4640-a9d4-04a17ceeac64/cd9508c6-33b2-4092-8e87-ecfbafcee27b"
-					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -3795,74 +4073,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 138.43 154.94 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "927ab03d-7203-4c0b-a500-0d1b16a751b9")
-		(property "Reference" "R10"
-			(at 138.43 148.59 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 138.43 151.13 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 138.43 156.718 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 138.43 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 138.43 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "7566529b-3568-4338-892b-7ebabfdeff8b")
-		)
-		(pin "1"
-			(uuid "7910dc34-982f-4035-86d7-77f9ed2bb611")
-		)
-		(instances
-			(project "OpenFC"
-				(path "/fb88b6f9-ee39-4640-a9d4-04a17ceeac64/cd9508c6-33b2-4092-8e87-ecfbafcee27b"
-					(reference "R10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 316.23 181.61 0)
 		(unit 1)
@@ -3929,33 +4139,34 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 240.03 147.32 90)
+		(lib_id "Device:C")
+		(at 213.36 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9698c48d-6319-4802-b79c-06361d342833")
-		(property "Reference" "R33"
-			(at 240.03 140.97 90)
+		(uuid "97e7b536-641e-4b26-b48d-29aa9b6965c7")
+		(property "Reference" "C49"
+			(at 213.36 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "100R"
-			(at 240.03 143.51 90)
+		(property "Value" "100n"
+			(at 216.662 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 240.03 149.098 90)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 214.3252 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3964,7 +4175,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 240.03 147.32 0)
+			(at 213.36 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3972,25 +4183,33 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 240.03 147.32 0)
+		(property "Description" ""
+			(at 213.36 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C76939"
+			(at 213.36 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "2"
-			(uuid "084ccde5-0d68-495a-a800-224aaa976ce2")
 		)
 		(pin "1"
-			(uuid "560f25af-c7ee-422f-aa9b-b0031bec5767")
+			(uuid "34b1853a-4dfd-44d3-90ac-f138dca91717")
+		)
+		(pin "2"
+			(uuid "e9b6d23f-867d-45cb-bcd7-1c7981672e16")
 		)
 		(instances
 			(project "OpenFC"
 				(path "/fb88b6f9-ee39-4640-a9d4-04a17ceeac64/cd9508c6-33b2-4092-8e87-ecfbafcee27b"
-					(reference "R33")
+					(reference "C49")
 					(unit 1)
 				)
 			)
@@ -4022,7 +4241,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 293.37 98.298 90)
 			(effects
 				(font
@@ -4043,6 +4262,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 293.37 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C473570"
+			(at 293.37 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4198,32 +4426,34 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 260.35 114.3 180)
+		(lib_id "Device:C")
+		(at 149.86 163.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "abb048a6-7cc8-457f-a546-6db2ed3f5a7d")
-		(property "Reference" "R24"
-			(at 264.414 114.3 0)
+		(uuid "aa758aa8-4027-4c66-b9b1-7100471051d7")
+		(property "Reference" "C3"
+			(at 149.86 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "1k"
-			(at 267.97 114.3 0)
+		(property "Value" "100n"
+			(at 153.162 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 262.128 114.3 90)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 150.8252 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4232,7 +4462,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 260.35 114.3 0)
+			(at 149.86 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4240,25 +4470,33 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 260.35 114.3 0)
+		(property "Description" ""
+			(at 149.86 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C76939"
+			(at 149.86 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "2"
-			(uuid "1778c92a-d7bc-4879-b581-aba88ba6ce8a")
 		)
 		(pin "1"
-			(uuid "d32cdb4a-4858-4b25-8bd2-7fa479d9fda9")
+			(uuid "7d016b34-ccb0-4c67-87c6-cacb1c55f455")
+		)
+		(pin "2"
+			(uuid "82f7f190-5d4f-4cba-a5af-3e154471d2a8")
 		)
 		(instances
 			(project "OpenFC"
 				(path "/fb88b6f9-ee39-4640-a9d4-04a17ceeac64/cd9508c6-33b2-4092-8e87-ecfbafcee27b"
-					(reference "R24")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -4399,33 +4637,34 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 247.65 165.1 90)
+		(lib_id "Device:C")
+		(at 316.23 185.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c45b90e2-96dc-4016-8746-0d47b20196fc")
-		(property "Reference" "R21"
-			(at 247.65 158.75 90)
+		(uuid "b6c0d5c6-9f4c-44ff-b2be-1ba6992f57a2")
+		(property "Reference" "C61"
+			(at 316.23 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "10k"
-			(at 247.65 161.29 90)
+		(property "Value" "100n"
+			(at 319.532 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 247.65 166.878 90)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 317.1952 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4434,7 +4673,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 247.65 165.1 0)
+			(at 316.23 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4442,25 +4681,109 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 247.65 165.1 0)
+		(property "Description" ""
+			(at 316.23 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C76939"
+			(at 316.23 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "2"
-			(uuid "d1616e1d-fe55-4d33-9805-863e50e23e21")
 		)
 		(pin "1"
-			(uuid "1f488184-a887-4d06-9ff1-26625d97d2f4")
+			(uuid "95fa45b5-6143-4a0f-9462-6b5e9dae26d3")
+		)
+		(pin "2"
+			(uuid "c2ec4dc9-3287-47b7-8c8a-286185974d85")
 		)
 		(instances
 			(project "OpenFC"
 				(path "/fb88b6f9-ee39-4640-a9d4-04a17ceeac64/cd9508c6-33b2-4092-8e87-ecfbafcee27b"
-					(reference "R21")
+					(reference "C61")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 269.24 135.89 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bbac8a9d-c289-4ec2-b0cf-321598d81efb")
+		(property "Reference" "R25"
+			(at 268.986 131.064 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 268.986 132.842 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 269.24 137.668 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 269.24 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 269.24 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C270364"
+			(at 269.24 135.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0a9e953e-af0f-4028-86ae-e599d3193a2f")
+		)
+		(pin "2"
+			(uuid "532b5226-3304-4012-a28e-8cd96f5bc353")
+		)
+		(instances
+			(project "OpenFC"
+				(path "/fb88b6f9-ee39-4640-a9d4-04a17ceeac64/cd9508c6-33b2-4092-8e87-ecfbafcee27b"
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -4533,6 +4856,83 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 162.56 95.25 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cf2ff18a-5f37-4f5d-82a2-7765121fdf8c")
+		(property "Reference" "R27"
+			(at 162.56 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "30R"
+			(at 162.56 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 162.56 93.472 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 162.56 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 162.56 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C778391"
+			(at 162.56 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f66d4312-523e-4213-a8bf-6492fbc4bf13")
+		)
+		(pin "2"
+			(uuid "771fb773-ebac-48d0-a9db-7bf451cd1a08")
+		)
+		(instances
+			(project "OpenFC"
+				(path "/fb88b6f9-ee39-4640-a9d4-04a17ceeac64/cd9508c6-33b2-4092-8e87-ecfbafcee27b"
+					(reference "R27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 213.36 77.47 0)
 		(unit 1)
@@ -4593,83 +4993,6 @@
 			(project "OpenFC"
 				(path "/fb88b6f9-ee39-4640-a9d4-04a17ceeac64/cd9508c6-33b2-4092-8e87-ecfbafcee27b"
 					(reference "#PWR0129")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 259.08 168.91 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "dec55e10-0c85-4319-9344-116f236c1bfd")
-		(property "Reference" "C10"
-			(at 255.016 167.132 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 255.778 169.164 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 258.1148 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 259.08 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 259.08 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C1525"
-			(at 259.08 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f97ff5d8-a062-4f2f-89a9-c9d6f1365688")
-		)
-		(pin "2"
-			(uuid "928d32dc-2714-4fc8-897c-081fe43d76d8")
-		)
-		(instances
-			(project "OpenFC"
-				(path "/fb88b6f9-ee39-4640-a9d4-04a17ceeac64/cd9508c6-33b2-4092-8e87-ecfbafcee27b"
-					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -4872,228 +5195,6 @@
 				(path "/fb88b6f9-ee39-4640-a9d4-04a17ceeac64/cd9508c6-33b2-4092-8e87-ecfbafcee27b"
 					(reference "U37")
 					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 149.86 134.62 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fb2f0ff0-d044-47c7-8b02-378ec5577e1a")
-		(property "Reference" "C64"
-			(at 145.796 132.842 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 146.558 134.874 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 148.8948 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 149.86 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 149.86 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C1525"
-			(at 149.86 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6d7f80d6-15d8-40f8-9222-ac25a02c3832")
-		)
-		(pin "2"
-			(uuid "cd81c663-b6f1-4eb0-949e-96f4cdfb0122")
-		)
-		(instances
-			(project "OpenFC"
-				(path "/fb88b6f9-ee39-4640-a9d4-04a17ceeac64/cd9508c6-33b2-4092-8e87-ecfbafcee27b"
-					(reference "C64")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 138.43 125.73 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fc8ed979-b8b4-4cee-ab32-d7a7c0009333")
-		(property "Reference" "R30"
-			(at 138.43 119.38 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 138.43 121.92 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 138.43 127.508 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 138.43 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 138.43 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "432ae806-1bb7-430b-bef6-149c7437d681")
-		)
-		(pin "1"
-			(uuid "7a5f4115-38ea-438a-b4a3-ad15b8183e14")
-		)
-		(instances
-			(project "OpenFC"
-				(path "/fb88b6f9-ee39-4640-a9d4-04a17ceeac64/cd9508c6-33b2-4092-8e87-ecfbafcee27b"
-					(reference "R30")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 149.86 163.83 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ff54b7d9-f465-4b68-ae93-1647113d778c")
-		(property "Reference" "C3"
-			(at 145.796 162.052 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 146.558 164.084 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 148.8948 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 149.86 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 149.86 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C1525"
-			(at 149.86 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7deb906a-595c-417c-ae52-e120345bc7c4")
-		)
-		(pin "2"
-			(uuid "9bbbf7cf-7fe7-4ddc-953d-2ca3904a86a3")
-		)
-		(instances
-			(project "OpenFC"
-				(path "/fb88b6f9-ee39-4640-a9d4-04a17ceeac64/cd9508c6-33b2-4092-8e87-ecfbafcee27b"
-					(reference "C3")
-					(unit 1)
 				)
 			)
 		)
